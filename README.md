@@ -74,11 +74,11 @@ _2016/11/30作成_
 
 ### 4. Android Studioでアプリを起動
 
-AndroidStudioを開きます、「既存プロジェクトを開く」と選択します。ダウンロードして解凍したプロジェクトを選択します。
+* AndroidStudioを開いて、「Open an existing Android Studio project」から、ダウンロードして解凍したプロジェクトを選択します
 
 ![画像8-1](/readme-img/android_project_open.png)
 
-選択したプロジェクトを開きます。
+* 選択したプロジェクトが開かれます
 
 ![画像9](/readme-img/009.png)
 
@@ -90,7 +90,9 @@ AndroidStudioを開きます、「既存プロジェクトを開く」と選択�
 
 * `YOUR_HTML_PUBLIC_URL`の部分を書き換えます
  * このとき、ダブルクォーテーション（`"`）を消さないように注意してください！
-* 書き換え終わったら`command + s`キーで保存をします
+* 書き換え終わったら保存してください
+ * Windowsの場合、`Ctrl + S`で保存できます。
+ * Macの場合、`command + S`で保存できます。
 
 ### 6. 動作確認
 * AndroidStudioでビルドを行います
