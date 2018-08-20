@@ -3,13 +3,13 @@ _2016/11/30作成_
 ![画像1](/readme-img/001.png)
 
 ## 概要
-* [ ニフクラ mobile backend ](http://mb.cloud.nifty.com/)の『ファイルストア機能』をWebサーバーとして利用し、保存したWebページを、アプリ内WebViewで表示するサンプルプロジェクトです。
-* 簡単な操作ですぐに [ ニフクラ mobile backend ](http://mb.cloud.nifty.com/)の機能を体験いただけます★☆
+* [ ニフクラ mobile backend ](https://mbaas.nifcloud.com/)の『ファイルストア機能』をWebサーバーとして利用し、保存したWebページを、アプリ内WebViewで表示するサンプルプロジェクトです。
+* 簡単な操作ですぐに [ ニフクラ mobile backend ](https://mbaas.nifcloud.com/)の機能を体験いただけます★☆
 
 ##  ニフクラ mobile backend って何？？
 スマートフォンアプリのバックエンド機能（プッシュ通知・データストア・会員管理・ファイルストア・SNS連携・位置情報検索・スクリプト）が**開発不要**、しかも基本**無料**(注1)で使えるクラウドサービス！
 
-注1：詳しくは[こちら](http://mb.cloud.nifty.com/price.htm)をご覧ください
+注1：詳しくは[こちら](https://mbaas.nifcloud.com/price.htm)をご覧ください
 
 ![画像2](/readme-img/002.png)
 
@@ -21,14 +21,14 @@ _2016/11/30作成_
 ※上記内容で動作確認をしています。
 
 ## 手順
-### 1. [ ニフクラ mobile backend ](http://mb.cloud.nifty.com/)の会員登録・ログインとアプリの新規作成
+### 1. [ ニフクラ mobile backend ](https://mbaas.nifcloud.com/)の会員登録・ログインとアプリの新規作成
 * 上記リンクから会員登録（無料）をします。登録ができたらログインをすると下図のように「アプリの新規作成」画面が出るのでアプリを作成します
 
 ![画像3](/readme-img/003.png)
 
 * アプリ作成されるとAPIキー（アプリケーションキーとクライアントキー）が発行されます
 * 「OK」をクリックします
- * **参考** ：APIキーはAndroid Studioで作成するアプリに[ ニフクラ mobile backend ](http://mb.cloud.nifty.com/)を紐付けるために使用します。アプリ内でmBaaSを使用する場合には必ず必要になるものですが、今回のサンプルアプリでは使用しません。
+ * **参考** ：APIキーはAndroid Studioで作成するアプリに[ ニフクラ mobile backend ](https://mbaas.nifcloud.com/)を紐付けるために使用します。アプリ内でmBaaSを使用する場合には必ず必要になるものですが、今回のサンプルアプリでは使用しません。
 
 ### 2. GitHubからサンプルプロジェクトのダウンロード
 * 下記リンクをクリックしてプロジェクトをMacにダウンロードします
@@ -41,7 +41,7 @@ _2016/11/30作成_
  * `mb.png`
  * `mb_function.png`
 
-* この３点のファイルを[ ニフクラ mobile backend ](http://mb.cloud.nifty.com/)の「ファイルストア」にアップロードします
+* この３点のファイルを[ ニフクラ mobile backend ](https://mbaas.nifcloud.com/)の「ファイルストア」にアップロードします
 * ダッシュボードを開き、「ファイルストア」＞「↑アップロード」をクリックします
 
 ![画像4](/readme-img/004.png)
@@ -84,7 +84,7 @@ _2016/11/30作成_
 
 ### 5. 公開ファイルURLの設定
 * `WebviewActivity.java`を編集します
-* 先程[ ニフクラ mobile backend ](http://mb.cloud.nifty.com/)のダッシュボード上で確認した`index.html`ファイルの「公開ファイルURL」を貼り付けます
+* 先程[ ニフクラ mobile backend ](https://mbaas.nifcloud.com/)のダッシュボード上で確認した`index.html`ファイルの「公開ファイルURL」を貼り付けます
 
 ![画像10](/readme-img/010.png)
 
