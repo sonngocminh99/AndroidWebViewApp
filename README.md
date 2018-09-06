@@ -15,7 +15,7 @@ _2016/11/30作成_
 
 ## 動作環境
 
-* Android Studio ver. 2.1.2
+* Android Studio ver. 3.1
 * Android OS ver. 6.0
 
 ※上記内容で動作確認をしています。
