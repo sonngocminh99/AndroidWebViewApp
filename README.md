@@ -106,7 +106,7 @@ _2016/11/30作成_
 公開ファイルURLは次のような構造になっています
 
 ```
-https://mb.api.cloud.nifty.com/2013-09-01/applications/**APPLICATION_ID**/publicFiles/**fileName**
+https://mbaas.api.nifcloud.com/2013-09-01/applications/**APPLICATION_ID**/publicFiles/**fileName**
 ```
 
 ### サンプルWebページについて
