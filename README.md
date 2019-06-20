@@ -14,9 +14,9 @@
 
 ## 動作環境
 
-* Android Studio ver. 3.1
+* Android Studio ver. 3.4.1
 * Android OS ver. 6.0
-* Android SDK v3
+* Android SDK v3.0.2
   - SDK v2系だと動作しないので注意
 
 ※上記内容で動作確認をしています。
