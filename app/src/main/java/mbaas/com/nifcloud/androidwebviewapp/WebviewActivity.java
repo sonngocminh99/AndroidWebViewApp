@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.Button;
 
 public class WebviewActivity extends AppCompatActivity {
@@ -24,6 +25,7 @@ public class WebviewActivity extends AppCompatActivity {
 
         //WebviewのURLを設定
         _webview = (WebView) findViewById(R.id.webviewInfo);
+        _webview.setWebViewClient(new WebViewClient());
         _webview.loadUrl(url);
 
         //ボタンの処理を登録する
