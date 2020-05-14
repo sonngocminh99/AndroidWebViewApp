@@ -1,4 +1,4 @@
-package mbaas.com.nifty.androidwebviewapp;
+package mbaas.com.nifcloud.androidwebviewapp;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

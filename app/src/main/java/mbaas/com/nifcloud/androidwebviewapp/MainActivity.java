@@ -1,4 +1,4 @@
-package mbaas.com.nifty.androidwebviewapp;
+package mbaas.com.nifcloud.androidwebviewapp;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
