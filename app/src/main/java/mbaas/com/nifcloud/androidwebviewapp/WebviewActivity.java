@@ -16,7 +16,7 @@ public class WebviewActivity extends AppCompatActivity {
     WebView _webview;
 
     //index.htmlの公開URL
-    String url = "YOUR_HTML_PUBLIC_URL";
+    String url = "https://mbaas.api.nifcloud.com/2013-09-01/applications/2Y3FB3hfKXExn5ym/publicFiles/index.html";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
