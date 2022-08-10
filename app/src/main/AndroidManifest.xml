@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:name="com.nifcloud.mbaas.core.NCMBApplicationController">
-        <activity android:name="mbaas.com.nifcloud.androidwebviewapp.MainActivity">
+        <activity android:name="mbaas.com.nifcloud.androidwebviewapp.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
